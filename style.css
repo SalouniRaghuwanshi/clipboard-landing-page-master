@@ -5,15 +5,13 @@
 }
 @import url(https://fonts.google.com/specimen/Bai+Jamjuree);
 body{
-    background-color: hsl(201, 11%, 66%);
     font-family:Bai Jamjuree;
     font-weight: 400, 600;
 }
-.box1{
-    margin-top: 8vw;
-    width: 30vw;
+.box{
+    width: 35vw;
     height: 30vw;
-    margin-left: 20vw;
+   margin: auto;
     background-color: white;
 }
 .img{
@@ -21,21 +19,27 @@ body{
     height: 5vw;
 }
 .copy{
-    padding-top: 2vw;
+    padding-top: 1.5vw;
     font-size: 3vw;
     text-align: center;
     color: hsl(171, 66%, 44%);
 }
 .inner-box{
-    width: 15vw;
     margin: auto;
+    width: 17vw;
 }
 .text{
     text-align: center;
-    font-size: 1vw;
+    font-size: 1.2vw;
 }
 .s-text{
-    font-size: 0.5vw;
+    font-size: 0.6vw;
     color:  hsl(210, 10%, 33%);
     text-align: center;
+}
+.btn{
+font-size: 0.7vw;
+margin: auto;
+text-align: center;
+margin-left: 1vw;
 }
