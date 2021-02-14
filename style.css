@@ -8,46 +8,38 @@ body{
     font-family:Bai Jamjuree;
     font-weight: 400, 600;
 }
-.box{
-    width: 20vw;
-    height: 30vw;
-   margin: auto;
-    background-color: white;
-}
 .img{
     background-image: url(images/bg-header-desktop.png);
-    height: 5vw;
+    height: 7vw;
 }
-.copy{
-    padding-top: 1.5vw;
-    font-size: 3vw;
-    text-align: center;
-    color: hsl(171, 66%, 44%);
+.img-logo{
+    padding-left: 48.5vw;
+    height: 5vw;
+    padding-top: 3vw;
 }
 .inner-box{
     margin: auto;
-    width: 12.7vw;
+    width: 37vw;
 }
 .text{
     text-align: center;
-    font-size: 0.8vw;
+    font-size: 2.6vw;
     color:  hsl(210, 10%, 33%);
 }
 .s-text{
-    font-size: 0.4vw;
+    font-size: 1.1vw;
     color:  hsl(201, 11%, 66%);
     text-align: center;
 }
 .btn-al{
-    margin-left: 1.8vw;
+    margin-left: 7.5vw;
 }
 .btn{
-font-size: 0.5vw;
+font-size: 1.3vw;
 margin: auto;
-padding: 0.4vw;
+padding: 0.8vw;
 text-align: center;
-height: 1.25vw;
-border-radius: 0.7vw;
+border-radius: 2vw;
 color: white;
 }
 .btn1{
@@ -57,7 +49,44 @@ color: white;
     background-color: hsl(233, 100%, 69%)
     ;
 }
+.box1{
+    display: flex;
+}
 .img1{
-height: 7vw;
-margin: -20%;
+    height: 35vw;
+    width: 60vw;
+margin-left: -10vw;
+}
+.text-box{
+    width: 21vw;
+    margin-top: 4vw;
+    margin-left: 14vw;
+}
+.m-text{
+    text-align: left;
+    font-size: 1.7vw;
+    color:  hsl(210, 10%, 33%);
+}
+.s1-text{
+    font-size: 1.1vw;
+    color:  hsl(201, 11%, 66%);
+}
+.img2{
+    width: 70vw;
+    height: 40vw;
+    margin-left: 13vw;
+}
+.box2{
+    width: 30vw;
+    padding-left: 5vw;
+    text-align: center;
+    border: 1vw solid white;
+}
+.m1-text{
+    font-size: 1.5vw;
+    text-align: center;
+    color:hsl(210, 10%, 33%);
+}
+.img3{
+    height: 7vw;
 }
