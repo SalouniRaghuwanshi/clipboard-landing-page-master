@@ -15,11 +15,12 @@ body{
 .img-logo{
     padding-left: 48.5vw;
     height: 5vw;
-    padding-top: 3vw;
+    padding-top: 2vw;
 }
 .inner-box{
     margin: auto;
     width: 37vw;
+    margin-top: 2vw;
 }
 .text{
     text-align: center;
@@ -33,6 +34,8 @@ body{
 }
 .btn-al{
     margin-left: 7.5vw;
+    margin-top: 2vw;
+    margin-bottom: 3vw;
 }
 .btn{
 font-size: 1.3vw;
@@ -51,6 +54,7 @@ color: white;
 }
 .box1{
     display: flex;
+    margin-top: 3vw;
 }
 .img1{
     height: 35vw;
@@ -59,8 +63,11 @@ margin-left: -10vw;
 }
 .text-box{
     width: 21vw;
-    margin-top: 4vw;
+    margin-top: 2vw;
     margin-left: 14vw;
+}
+.inner-text{
+    margin-top: 2vw;
 }
 .m-text{
     text-align: left;
@@ -72,6 +79,7 @@ margin-left: -10vw;
     color:  hsl(201, 11%, 66%);
 }
 .img2{
+    margin-top: 2vw;
     width: 70vw;
     height: 40vw;
     margin-left: 13vw;
@@ -88,5 +96,166 @@ margin-left: -10vw;
     color:hsl(210, 10%, 33%);
 }
 .img3{
-    height: 7vw;
+    height: 5vw;
+}
+.img4{
+    height: 3vw;
+    padding-left: 7vw;
+}
+.footer{
+    background-color: hsl(200, 12%, 95%);;
+    padding: 2vw;
+    padding-left: 12vw;
+    margin-top: 6vw;
+}
+.img5{
+    height: 2.5vw;
+}
+.f-size{
+    width: 45vw;
+    text-align: left;
+    padding-left: 3vw;
+}
+.f1{
+    padding-left: 8vw;
+}
+.f2{
+    padding-left: 9vw;
+}
+.social-icon{
+   padding-left: 23vw;
+}
+.icon{
+    padding-left: 1vw;
+}
+@media (max-width:420px){
+    *{  
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    @import url(https://fonts.google.com/specimen/Bai+Jamjuree);
+    body{
+        font-family:Bai Jamjuree;
+        font-weight: 400, 600;
+    }
+    .img{
+        background-image: url(images/bg-header-mobile.png);
+        height: 45vw;
+        width: 100vw;
+    }
+    .img-logo{
+        padding-left: 48.5vw;
+        height: 14vw;
+        margin-top: 15vw;
+        margin-bottom: 10vw;
+    }
+    .inner-box{
+        margin: auto;
+        width: 83vw;
+        margin-top: 6vw;
+    }
+    .text{
+        text-align: center;
+        font-size: 9vw;
+        color:  hsl(210, 10%, 33%);
+    }
+    .s-text{
+        font-size: 4.5vw;
+        color:  hsl(201, 11%, 66%);
+        text-align: center;
+    }
+    .btn-al{
+        margin-left: 1vw;
+        margin-top: 6vw;
+        margin-bottom: 6vw;
+    }
+    .btn{
+    font-size: 6vw;
+    margin: auto;
+    padding: 2.5vw;
+    padding-left: 17vw;
+    padding-right: 17vw;
+    text-align: center;
+    border-radius: 10vw;
+    color: white;
+    }
+    .btn1{
+        background-color: hsl(171, 66%, 44%);
+    }
+    .btn2{
+        background-color: hsl(233, 100%, 69%) ;
+    }
+    .m{
+       margin-bottom: 5vw;
+    }
+    .img1{
+        height: 38vw;
+        width: 75vw;
+        margin-left: 9vw;
+    }
+    .m-box{
+        text-align: center;
+        width: 80vw;
+        margin-left: 6vw;
+
+    }
+    .m-text{
+        font-size: 7.5vw;
+        text-align: center;
+        color:  hsl(210, 10%, 33%);
+    }
+    .s1-text{
+        font-size: 4.2vw;
+        color:  hsl(201, 11%, 66%);
+    }
+    .img2{
+        margin-top: 6vw;
+        width: 70vw;
+        height: 40vw;
+        margin-left: 13vw;
+    }
+    .box2{
+        width: 82vw;
+        text-align: center;
+        border: 1vw solid white;
+        margin-left: 6vw;
+    }
+    .m1-text{
+        font-size: 6vw;
+        text-align: center;
+        color:hsl(210, 10%, 33%);
+    }
+    .img3{
+        height: 15vw;
+    }
+    .img4{
+        height: 15vw;
+        width: 40vw;
+        padding-bottom: 6vw;
+        margin-left: 25vw;
+    }
+    .footer{
+        background-color: hsl(200, 12%, 95%);;
+        padding: 4vw;
+        margin-top: 5vw;
+        text-align: center;
+    }
+    .dis{
+        display: flex;
+        flex-direction: column;
+    }
+    .img5{
+        height: 8vw;
+        width: 8vw;
+        margin: auto;      
+    }
+    .f-size{
+        width: 80vw;
+        text-align: center;
+        padding: 3vw;
+    }
+    .social-icon{
+        padding-left: 0vw;
+     }
 }
