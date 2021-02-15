@@ -150,13 +150,13 @@ margin-left: -10vw;
     }
     .img-logo{
         padding-left: 35vw;
-        height: 27vw;
+        height: 34vw;
         margin-top: 20vw;
         margin-bottom: 15vw;
     }
     .inner-box{
         margin: auto;
-        width: 68vw;
+        width: 75vw;
         margin-top: 6vw;
 
     }
@@ -180,8 +180,8 @@ margin-left: -10vw;
     font-size: 3.5vw;
     margin: auto;
     padding: 3vw;
-    padding-left: 18vw;
-    padding-right: 18vw;
+    padding-left: 19vw;
+    padding-right: 19vw;
     text-align: center;
     border-radius: 10vw;
     color: white;
@@ -253,13 +253,13 @@ margin-left: -10vw;
         flex-direction: column;
     }
     .img5{
-        height: 25vw;
-        width: 25vw;
+        height: 28vw;
+        width: 28vw;
         margin: auto;
         padding: 2vw;     
     }
     .f-size{
-        width: 95vw;
+        width: 98vw;
         text-align: center;
         padding: 4vw;
         font-size: 2.7vw;}
