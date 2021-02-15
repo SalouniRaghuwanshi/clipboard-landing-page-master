@@ -13,7 +13,8 @@ body{
     background-repeat: no-repeat;
 }
 .img-logo{
-    padding-left: 48.5vw;
+    padding-left: 45vw;
+    margin: auto;
     height: 8vw;
     margin-top: 4vw;
     margin-bottom: 4vw;
@@ -115,7 +116,7 @@ margin-left: -10vw;
     height: 5vw;
 }
 .f-size{
-    width: 50.5vw;
+    width: 50vw;
     text-align: left;
     padding-left: 6vw;
     font-size: 1vw;
@@ -124,7 +125,7 @@ margin-left: -10vw;
     padding-right: 7vw;
 }
 .f2{
-    padding-right: 8.05vw;
+    padding-right: 8vw;
 }
 .social-icon{
    padding-left: 15vw;
@@ -148,37 +149,39 @@ margin-left: -10vw;
        
     }
     .img-logo{
-        padding-left: 48.5vw;
-        height: 14vw;
-        margin-top: 15vw;
-        margin-bottom: 10vw;
+        padding-left: 35vw;
+        height: 27vw;
+        margin-top: 20vw;
+        margin-bottom: 15vw;
     }
     .inner-box{
         margin: auto;
-        width: 83vw;
+        width: 68vw;
         margin-top: 6vw;
+
     }
     .text{
+        width: 60vw;
         text-align: center;
-        font-size: 9vw;
+        font-size: 6.5vw;
         color:  hsl(210, 10%, 33%);
+        margin: auto;
     }
     .s-text{
-        font-size: 4.5vw;
+        font-size: 3.2vw;
         color:  hsl(201, 11%, 66%);
         text-align: center;
     }
     .btn-al{
-        margin-left: 1vw;
         margin-top: 6vw;
         margin-bottom: 6vw;
     }
     .btn{
-    font-size: 6vw;
+    font-size: 3.5vw;
     margin: auto;
-    padding: 2.5vw;
-    padding-left: 17vw;
-    padding-right: 17vw;
+    padding: 3vw;
+    padding-left: 18vw;
+    padding-right: 18vw;
     text-align: center;
     border-radius: 10vw;
     color: white;
@@ -193,50 +196,51 @@ margin-left: -10vw;
        margin-bottom: 5vw;
     }
     .img1{
-        height: 38vw;
-        width: 75vw;
-        margin-left: 9vw;
+        height: 30vw;
+        width: 55vw;
+      margin: auto;
     }
     .m-box{
         text-align: center;
-        width: 80vw;
-        margin-left: 6vw;
-
+        width: 60vw;
+        margin: auto;
+        margin-top: 6vw;
     }
     .m-text{
-        font-size: 7.5vw;
+        font-size: 5vw;
         text-align: center;
         color:  hsl(210, 10%, 33%);
     }
     .s1-text{
-        font-size: 4.2vw;
+        font-size: 3vw;
         color:  hsl(201, 11%, 66%);
     }
     .img2{
+        margin-left: 15vw;
         margin-top: 6vw;
-        width: 70vw;
+        width: 60vw;
         height: 40vw;
-        margin-left: 13vw;
     }
     .box2{
-        width: 82vw;
+        width: 60vw;
         text-align: center;
         border: 1vw solid white;
-        margin-left: 6vw;
+      margin: auto;
     }
     .m1-text{
-        font-size: 6vw;
+        font-size: 5vw;
         text-align: center;
         color:hsl(210, 10%, 33%);
     }
     .img3{
-        height: 15vw;
+        height: 10vw;
     }
     .img4{
         height: 15vw;
         width: 40vw;
         padding-bottom: 6vw;
         margin-left: 25vw;
+        margin-top: 2vw;
     }
     .footer{
         background-color: hsl(200, 12%, 95%);;
@@ -249,18 +253,25 @@ margin-left: -10vw;
         flex-direction: column;
     }
     .img5{
-        height: 8vw;
-        width: 8vw;
-        margin: auto;      
+        height: 25vw;
+        width: 25vw;
+        margin: auto;
+        padding: 2vw;     
     }
     .f-size{
-        width: 90vw;
+        width: 95vw;
         text-align: center;
-        padding: 3vw;
-        font-size: 3vw;
-
+        padding: 4vw;
+        font-size: 2.7vw;}
+    .f1{
+        padding-bottom: 3vw;
     }
+    
     .social-icon{
-        padding-left: 0vw;
+      padding-left: 5vw;
+      padding: 4vw;
+    }
+    .icon{
+        padding-right: 2vw;
      }
 }
